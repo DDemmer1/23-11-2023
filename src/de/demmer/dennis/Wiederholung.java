@@ -15,7 +15,7 @@ public class Wiederholung {
 			//Abbruchbedingung
 		while(i < 10) {
 
-			System.out.println(i);
+			System.out.println("Läuervariable - while - schleife: " + i);
 			
 			//hochzählen der Läuervariable
 			i = i + 1;
@@ -23,13 +23,13 @@ public class Wiederholung {
 		
 		
 		
-		//-- for --
-
+		//-- for Schleife --
 		      //Läufervariable    //Abbruchbedingung    //hochzählen der Läuervariable
 		for(  int j = 5        ;     j < 10          ;                j++            ) {
 			
 			
-			
+			//hier wird alles wiederholt
+			System.out.println("Läuervariable - for - schleife: " + j);
 			
 			
 		}
